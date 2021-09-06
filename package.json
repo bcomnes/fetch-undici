@@ -1,7 +1,7 @@
 {
   "name": "undici-fetch",
   "description": "Isomorphic exports of fetch from window and unduci",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Bret Comnes <bcomnes@gmail.com> (https://bret.io)",
   "bugs": {
     "url": "https://github.com/bcomnes/undici-fetch/issues"
