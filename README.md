@@ -1,26 +1,26 @@
-# undici-fetch
-[![Actions Status](https://github.com/bcomnes/undici-fetch/workflows/tests/badge.svg)](https://github.com/bcomnes/undici-fetch/actions)
+# fetch-undici
+[![Actions Status](https://github.com/bcomnes/fetch-undici/workflows/tests/badge.svg)](https://github.com/bcomnes/fetch-undici/actions)
 
 Isomorphic exports of `fetch`, providing [`window.fetch`][br] in the browser, and [`undici.fetch`][ud] in node.js.
 
 ```
-npm install undici-fetch
+npm install fetch-undici
 ```
 
 ## Usage
 
 
 ``` js
-import { fetch } from 'undici-fetch';
+import { fetch } from 'fetch-undici';
 ```
 
 ## Why
 
-If you wan't to write an API client of some kind, that would be useful in the browser or in Node.js, `undici-fetch` provides the best implementation of `fetch` for the environment it's used in.
+If you wan't to write an API client of some kind, that would be useful in the browser or in Node.js, `fetch-undici` provides the best implementation of `fetch` for the environment it's used in.
 
 ## How
 
-`undici-fetch` works by utilizing environment specific exports fields so that you can have dependency injection at the built-in node module resolver layer.
+`fetch-undici` works by utilizing environment specific exports fields so that you can have dependency injection at the built-in node module resolver layer.
 It supports the following export fields:
 
 - `main` (cjs node)

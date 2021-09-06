@@ -1,10 +1,10 @@
 {
-  "name": "undici-fetch",
+  "name": "fetch-undici",
   "description": "Isomorphic exports of fetch from window and unduci",
   "version": "1.0.0",
   "author": "Bret Comnes <bcomnes@gmail.com> (https://bret.io)",
   "bugs": {
-    "url": "https://github.com/bcomnes/undici-fetch/issues"
+    "url": "https://github.com/bcomnes/fetch-undici/issues"
   },
   "dependencies": {
     "undici": "^4.5.1"
@@ -15,7 +15,7 @@
     "npm-run-all2": "^5.0.0",
     "standard": "^16.0.2"
   },
-  "homepage": "https://github.com/bcomnes/undici-fetch",
+  "homepage": "https://github.com/bcomnes/fetch-undici",
   "keywords": [],
   "license": "MIT",
   "main": "./node.cjs",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bcomnes/undici-fetch.git"
+    "url": "https://github.com/bcomnes/fetch-undici.git"
   },
   "scripts": {
     "prepublishOnly": "git push --follow-tags && gh-release -y",
