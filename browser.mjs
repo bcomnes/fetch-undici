@@ -1,3 +1,3 @@
-const fetch = window.fetch
+const windowFetch = window.fetch
 
-export { fetch }
+export { windowFetch as fetch }

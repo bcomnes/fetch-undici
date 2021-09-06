@@ -1,5 +1,3 @@
-const fetch = window.fetch
-
 module.exports = {
-  fetch
+  fetch: window.fetch
 }

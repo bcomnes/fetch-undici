@@ -1,5 +1,3 @@
-const { fetch } = require('undici')
-
 module.exports = {
-  fetch
+  fetch: require('undici').fetch
 }
