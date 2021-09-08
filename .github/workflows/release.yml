@@ -8,7 +8,7 @@ on:
         required: true
 
 env:
-  node_version: 14
+  node_version: lts/*
 
 jobs:
   version_and_release:
