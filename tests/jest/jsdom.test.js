@@ -7,5 +7,5 @@ const { fetch, type } = require('fetch-undici')
 
 test('jsdom in mjs', () => {
   expect(type).toBe('node.cjs')
-  expect(fetch).toBeTruthy()
+  expect(fetch).toBeDefined()
 })
