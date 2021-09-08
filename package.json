@@ -33,6 +33,9 @@
     "prepublishOnly": "git push --follow-tags && gh-release -y",
     "test": "run-s test:*",
     "test:standard": "standard",
+    "test:esbuild": "cd tests/esbuild && npm i && npm test",
+    "test:jest": "cd tests/jest && npm i && npm test",
+    "test:rollup": "cd tests/rollup && npm i && npm test",
     "version": "auto-changelog -p --template keepachangelog auto-changelog --breaking-pattern 'BREAKING CHANGE:' && git add CHANGELOG.md"
   },
   "standard": {

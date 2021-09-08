@@ -1,3 +1,3 @@
 const fetch = window.fetch
-
-export { fetch }
+const type = 'browser.mjs'
+export { fetch, type }

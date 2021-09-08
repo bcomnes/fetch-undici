@@ -1,3 +1,4 @@
 module.exports = {
-  fetch: window.fetch
+  fetch: window.fetch,
+  type: 'browser.cjs'
 }

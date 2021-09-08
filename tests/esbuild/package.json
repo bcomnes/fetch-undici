@@ -1,0 +1,21 @@
+{
+  "name": "esbuild",
+  "version": "0.0.0",
+  "description": "",
+  "main": "esbuild-app.js",
+  "type": "module",
+  "scripts": {
+    "test": "tap"
+  },
+  "keywords": [],
+  "author": "Bret Comnes <bcomnes@gmail.com> (https://bret.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "desm": "^1.2.0",
+    "esbuild": "^0.12.25",
+    "fetch-undici": "../../.",
+    "jsdom": "^17.0.0",
+    "p-temporary-directory": "^1.1.1",
+    "tap": "^15.0.9"
+  }
+}

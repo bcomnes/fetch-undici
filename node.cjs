@@ -1,3 +1,4 @@
 module.exports = {
-  fetch: require('undici').fetch
+  fetch: require('undici').fetch,
+  type: 'node.cjs'
 }
