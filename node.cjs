@@ -1,4 +1,2 @@
-const fetch = require('undici').fetch
-
-exports.fetch = fetch
+exports.fetch = require('undici').fetch
 exports.type = 'node.cjs'
