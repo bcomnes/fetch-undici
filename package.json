@@ -18,12 +18,12 @@
   "homepage": "https://github.com/bcomnes/fetch-undici",
   "keywords": [],
   "license": "MIT",
-  "main": "./node.cjs",
-  "browser": "./browser.cjs",
-  "module": "./browser.mjs",
+  "main": "./lib/node.cjs",
+  "browser": "./lib/browser.cjs",
+  "module": "./lib/browser.mjs",
   "exports": {
-    "browser": "./browser.mjs",
-    "node": "./node.cjs"
+    "browser": "./lib/browser.mjs",
+    "node": "./lib/node.cjs"
   },
   "repository": {
     "type": "git",
@@ -47,5 +47,8 @@
   "funding": {
     "type": "individual",
     "url": "https://github.com/sponsors/bcomnes"
-  }
+  },
+  "files": [
+    "lib/*"
+  ]
 }
