@@ -11,7 +11,12 @@ npm install fetch-undici
 
 
 ``` js
-import { fetch } from 'fetch-undici';
+import {
+  fetch,
+  Headers,
+  Response,
+  Request
+} from 'fetch-undici';
 ```
 
 ## Why
