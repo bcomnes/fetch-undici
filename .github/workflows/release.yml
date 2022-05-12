@@ -7,8 +7,12 @@ on:
         description: 'npm version {major,minor,patch}'
         required: true
 
+concurrency: # prevent concurrent releases
+  group: npm-bump
+  cancel-in-progress: true
+
 env:
-  node_version: 16
+  node_version: 'lts/*'
 
 jobs:
   version_and_release:
