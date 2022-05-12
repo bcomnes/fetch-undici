@@ -12,10 +12,10 @@
   "license": "MIT",
   "dependencies": {
     "desm": "^1.2.0",
-    "esbuild": "^0.12.25",
+    "esbuild": "^0.14.39",
     "fetch-undici": "../../.",
-    "jsdom": "^17.0.0",
+    "jsdom": "^19.0.0",
     "p-temporary-directory": "^1.1.1",
-    "tap": "^15.0.9"
+    "tap": "^16.2.0"
   }
 }

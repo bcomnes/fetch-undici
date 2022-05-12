@@ -11,13 +11,13 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "fetch-undici": "../../.",
     "rollup": "^2.56.3",
     "desm": "^1.2.0",
-    "jsdom": "^17.0.0",
+    "jsdom": "^19.0.0",
     "p-temporary-directory": "^1.1.1",
-    "tap": "^15.0.9"
+    "tap": "^16.2.0"
   }
 }

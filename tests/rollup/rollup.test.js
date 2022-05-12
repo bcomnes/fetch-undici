@@ -42,7 +42,8 @@ tap.test('test build with esbuild', async t => {
 
   await writeFile(join(dir, 'package.json'), '{ "type": "module" }')
 
-  const { type } = await import(join(dir, 'rollup-app.js'))
+  const { type, native } = await import(join(dir, 'rollup-app.js'))
   tap.equal(type, 'browser.mjs')
+  tap.true(native, 'native browser export in rollup')
   await cleanup()
 })

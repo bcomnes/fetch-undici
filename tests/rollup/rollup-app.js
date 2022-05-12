@@ -1,3 +1,3 @@
-import { fetch, type } from 'fetch-undici'
+import { fetch, type, native } from 'fetch-undici'
 
-export { type, fetch }
+export { type, fetch, native }
