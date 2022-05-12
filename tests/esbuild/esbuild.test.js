@@ -36,7 +36,8 @@ tap.test('test build with esbuild', async t => {
 
   await writeFile(join(dir, 'package.json'), '{ "type": "module" }')
 
-  const { type } = await import(join(dir, 'esbuild-app.js'))
+  const { type, native } = await import(join(dir, 'esbuild-app.js'))
   tap.equal(type, 'browser.mjs')
+  tap.equal(native, true)
   await cleanup()
 })
