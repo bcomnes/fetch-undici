@@ -21,7 +21,7 @@ import {
 
 ## Why
 
-If you wan't to write an API client of some kind, that would be useful in the browser or in Node.js, `fetch-undici` provides the best implementation of `fetch` for the environment it's used in.
+If you want to write an API client of some kind, that would be useful in the browser or in Node.js, `fetch-undici` provides the best implementation of `fetch` for the environment it's used in.
 
 ## How
 
