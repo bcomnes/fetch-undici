@@ -44,6 +44,6 @@ tap.test('test build with esbuild', async t => {
 
   const { type, native } = await import(join(dir, 'rollup-app.js'))
   tap.equal(type, 'browser.mjs')
-  tap.true(native, 'native browser export in rollup')
+  tap.ok(native, 'native browser export in rollup')
   await cleanup()
 })
