@@ -8,6 +8,6 @@ tap.test('node gets undici cjs', async t => {
   t.ok(fetch)
 
   const supportsFetch = semver.satisfies(process.version, '>=18.0.0')
-  if (supportsFetch) t.true(native, 'exported native fetch in node versions >=18')
+  if (supportsFetch) t.ok(native, 'exported native fetch in node versions >=18')
   else t.false(native, 'exported undici fetch in node versions <18')
 })
