@@ -12,7 +12,7 @@
   "type": "module",
   "dependencies": {
     "@rollup/plugin-commonjs": "^22.0.0",
-    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-node-resolve": "^14.0.0",
     "fetch-undici": "../../.",
     "rollup": "^2.56.3",
     "desm": "^1.2.0",
