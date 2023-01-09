@@ -16,7 +16,7 @@
     "fetch-undici": "../../.",
     "rollup": "^2.56.3",
     "desm": "^1.2.0",
-    "jsdom": "^20.0.0",
+    "jsdom": "^21.0.0",
     "p-temporary-directory": "^1.1.1",
     "tap": "^16.2.0"
   }
