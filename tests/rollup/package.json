@@ -17,7 +17,7 @@
     "rollup": "^2.56.3",
     "desm": "^1.2.0",
     "jsdom": "^22.0.0",
-    "p-temporary-directory": "^1.1.1",
+    "p-temporary-directory": "^2.0.1",
     "tap": "^16.2.0"
   }
 }
