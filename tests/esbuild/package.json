@@ -16,6 +16,6 @@
     "fetch-undici": "../../.",
     "jsdom": "^22.0.0",
     "p-temporary-directory": "^2.0.1",
-    "tap": "^16.2.0"
+    "tap": "^18.1.5"
   }
 }
