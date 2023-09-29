@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "fetch-undici": "../../.",
-    "tap": "^16.2.0"
+    "tap": "^18.3.0"
   }
 }
