@@ -11,6 +11,16 @@
   "license": "MIT",
   "dependencies": {
     "fetch-undici": "../../.",
-    "tap": "^16.2.0"
+    "tap": "^18.3.0"
+  },
+  "tap": {
+    "serial": [],
+    "typecheck": false,
+    "allow-incomplete-coverage": true,
+    "allow-empty-coverage": true,
+    "coverage-report": [
+      "text",
+      "lcovonly"
+    ]
   }
 }

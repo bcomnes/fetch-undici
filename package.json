@@ -54,5 +54,11 @@
   ],
   "engines": {
     "node": ">=16"
+  },
+  "tap": {
+    "serial": [],
+    "typecheck": false,
+    "allow-incomplete-coverage": true,
+    "allow-empty-coverage": true
   }
 }

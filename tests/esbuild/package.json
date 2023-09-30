@@ -16,6 +16,16 @@
     "fetch-undici": "../../.",
     "jsdom": "^22.0.0",
     "p-temporary-directory": "^2.0.1",
-    "tap": "^16.2.0"
+    "tap": "^18.3.0"
+  },
+  "tap": {
+    "serial": [],
+    "typecheck": false,
+    "allow-incomplete-coverage": true,
+    "allow-empty-coverage": true,
+    "coverage-report": [
+      "text",
+      "lcovonly"
+    ]
   }
 }
