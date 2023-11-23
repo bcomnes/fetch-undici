@@ -49,9 +49,6 @@
     "type": "individual",
     "url": "https://github.com/sponsors/bcomnes"
   },
-  "files": [
-    "lib/*"
-  ],
   "engines": {
     "node": ">=16"
   },
