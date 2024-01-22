@@ -14,7 +14,7 @@
     "desm": "^1.2.0",
     "esbuild": "^0.14.39",
     "fetch-undici": "../../.",
-    "jsdom": "^23.0.0",
+    "jsdom": "^24.0.0",
     "p-temporary-directory": "^2.0.1",
     "tap": "^18.3.0"
   },
