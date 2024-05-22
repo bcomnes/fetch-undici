@@ -16,7 +16,7 @@
     "fetch-undici": "../../.",
     "jsdom": "^24.0.0",
     "p-temporary-directory": "^2.0.1",
-    "tap": "^18.3.0"
+    "tap": "^19.0.0"
   },
   "tap": {
     "serial": [],
