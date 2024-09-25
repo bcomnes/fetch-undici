@@ -10,11 +10,13 @@
     "undici": "^6.19.8"
   },
   "devDependencies": {
+    "@voxpelli/tsconfig": "^15.0.0",
     "auto-changelog": "^2.2.0",
     "gh-release": "^7.0.0",
     "npm-run-all2": "^6.0.0",
     "semver": "^7.3.7",
-    "standard": "^17.0.0"
+    "standard": "^17.0.0",
+    "typescript": "^5.6.2"
   },
   "homepage": "https://github.com/bcomnes/fetch-undici",
   "keywords": [],
@@ -38,6 +40,10 @@
     "url": "https://github.com/bcomnes/fetch-undici.git"
   },
   "scripts": {
+    "build": "npm run clean && run-p build:*",
+    "build:declaration": "tsc -p declaration.tsconfig.json",
+    "clean": "run-p clean:*",
+    "clean:declarations-lib": "rm -rf $(find lib -type f -name '*.d.ts*' ! -name '*-types.d.ts')",
     "prepublishOnly": "git push --follow-tags && gh-release -y",
     "test": "run-s test:*",
     "test:standard": "standard",
