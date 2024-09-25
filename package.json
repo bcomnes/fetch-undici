@@ -26,6 +26,13 @@
     "browser": "./lib/browser.mjs",
     "node": "./lib/node.cjs"
   },
+  "files": [
+    "lib/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/bcomnes/fetch-undici.git"
