@@ -1,7 +1,7 @@
 # fetch-undici
 [![Actions Status](https://github.com/bcomnes/fetch-undici/workflows/tests/badge.svg)](https://github.com/bcomnes/fetch-undici/actions)
 
-**Justs use fetch directly in node or browsers. It just works now!**
+**Justs use fetch directly in node or browsers. It just works now! Remember to use undici.request in node only contexts. Its much faster!**
 
 Isomorphic exports of `fetch`, providing [`window.fetch`][br] in the browser, and [`undici.fetch`][ud] in node.js.
 
